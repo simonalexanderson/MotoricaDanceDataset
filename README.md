@@ -1,19 +1,29 @@
 # MotoricaDanceDataset
 
-Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was collected by Simon Alexanderson and Esther Ericsson and was recorded during four sessions 2019-2022.
+Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
 
-- Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. 
-- Session 2: Causal dancing by Esther Ericsson and friends, performed to various pop songs. 
-- Session 3: Jazz dancing by Lizette Röhnlund and Nils XXX, under supervision of YYY. Music by Stockholm Swing Allstars.
-- Session 4: Street dancing by Mario Perez Amigo and Klara + Jazz dancing by Lisette Röhnlund.
+- Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping
+- Session 2: Causal dancing by Esther Ericsson and friends, performed to various pop songs. Styles: Casual
+- Session 3: Jazz dancing by Lizette Röhnlund and Nils XXX, under supervision of YYY. Music by Stockholm Swing Allstars. Styles: Jazz, Charleston, Tapping
+- Session 4: Street dancing by Mario Perez Amigo and Klara + Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston
 
-Sessions 1-2 constitutes the PSMD dataset used in the paper "Probabilistic autoregressive dance generation with multimodal attention https://dl.acm.org/doi/10.1145/3478513.3480570" published at SIGGRAPH Asia 2021. Sessions 3-4 constitutes novel dancing for the LDA paper.
+Sessions 1-2 constitutes the PSMD dataset used in the paper "Probabilistic autoregressive dance generation with multimodal attention https://dl.acm.org/doi/10.1145/3478513.3480570" published at SIGGRAPH Asia 2021. 
+Sessions 3-4 are recordings for the paper.
 
 The naming of the clips follow the convension used in AIST Dance Database, i.e. 
 prefix_genre_situation_camera_dancer_music_choreography
 In our case only the tags "genre", "dancer" and "music" are changing, while the tags "situation" is allways set to sFM (Advanced dance), "camera" to cAll, and "choreography" to a increasing serial number.
 
-# Styles
+| Style      | Code | Nb dancers | Nb minutes| Comments |
+|------------|------|------------|-----------|----------|
+| Hiphop     | gLH  | 2          | Row 1     | |
+| Krumping   | gKR  | 1          | Row 2     | |
+| Popping    | gPO  | 2          | Row 3     | |
+| Locking    | gLO  | 2          | Row 4     | |
+| Jazz       | gJZ  | 2          | Row 5     | |
+| Charleston | gCH  | 2          | Row 6     | |
+| Tapping    | gTP  | 2          | Row 7     | |
+| Casual     | gCA  | 1          | Row 8     | |
 
 # Downloading
 
