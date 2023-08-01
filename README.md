@@ -3,14 +3,14 @@
 Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
 
 - Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping
-- Session 2: Causal dancing by Esther Ericsson and friends, performed to various pop songs. Styles: Casual
+- Session 2: Causal dancing by Esther Ericsson and friends, performed to various pop songs. Styles: Casual (Note: music was played from Spotify)
 - Session 3: Jazz dancing by Lizette Röhnlund and Nils XXX, under supervision of YYY. Music by Stockholm Swing Allstars. Styles: Jazz, Charleston, Tapping
-- Session 4: Street dancing by Mario Perez Amigo and Klara + Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston
+- Session 4: Street dancing by Mario Perez Amigo and Klara XXX + Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston (Note: Locking and Jazz music were played from youtube)
 
 Sessions 1-2 constitutes the PSMD dataset used in the paper "Probabilistic autoregressive dance generation with multimodal attention https://dl.acm.org/doi/10.1145/3478513.3480570" published at SIGGRAPH Asia 2021. 
-Sessions 3-4 are recordings for the paper.
+Sessions 3-4 are novel recordings for the paper "", which used all the data (Sessions 1-4) for training.
 
-The naming of the clips follow the convension used in AIST Dance Database, i.e. 
+To comply with other studies, we named the clips following the convension used in AIST Dance Database, i.e. 
 prefix_genre_situation_camera_dancer_music_choreography
 In our case only the tags "genre", "dancer" and "music" are changing, while the tags "situation" is allways set to sFM (Advanced dance), "camera" to cAll, and "choreography" to a increasing serial number.
 
@@ -26,6 +26,8 @@ In our case only the tags "genre", "dancer" and "music" are changing, while the 
 | Casual     | gCA  | 1          | Row 8     | |
 
 # Downloading
+The folowing download link contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted feature 
+
 
 # Museum exhibition
 
@@ -39,11 +41,11 @@ The Motorica Dance Dataset is free to use for research purposes by academic inst
 
 **No redistribution**
 
-Unauthorized redistribution of any content of the database is prohibited.
+Unauthorized redistribution of any content of the database is prohibited. Music is allowed to be used in adademic video presentations with attribution to the rights owners.
 
-**Attribution**
+**Citations**
 
-Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. When mentioning this database in an academic paper, please cite the following paper as a reference:
+When mentioning this database in an academic paper, please cite the following paper as a reference:
 
 ```
 @article{10.1145/3478513.3480570,
@@ -66,7 +68,12 @@ keywords = {normalising flows, machine learning, glow, generative models, dance,
 }
 ```
 
-The street dances were performed by Mario Perez Amigo to music by Mario Perez Amigo. Please attribute when original motion or music is used in videos.
+**Attribution**
+Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
+When using the music in video presentations, please attribute the music with .
+
+**Notes**
+The pop songs 
 
 **Disclaimers**
 Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronization issues. If you find any errors, please contact simon@motorica.ai to help in improving the database.
