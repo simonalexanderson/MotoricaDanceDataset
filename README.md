@@ -1,5 +1,7 @@
 # MotoricaDanceDataset
 
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://youtu.be/Qfd2EpzWgok)" frameborder="0" allowfullscreen></iframe>
+
 Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
 
 - Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping
@@ -38,10 +40,28 @@ The Motorica Dance Dataset is free to use for research purposes by academic inst
 
 Unauthorized redistribution of any content of the database is prohibited. Music is allowed to be used in adademic video presentations with attribution to the rights owners.
 
+**Attribution**
+Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
+When using the music in video presentations, please attribute the music with "music ".
+
+**Disclaimers**
+Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronization issues. If you find any errors, please contact simon@motorica.ai to help in improving the database.
+
 **Citations**
 
 When mentioning this database in an academic paper, please cite the following papers as reference:
-
+```
+@article{alexanderson2023listen,
+  title={Listen, Denoise, Action! Audio-Driven Motion Synthesis with Diffusion Models},
+  author={Alexanderson, Simon and Nagy, Rajmund and Beskow, Jonas and Henter, Gustav Eje},
+  journal={ACM Trans. Graph.},
+  volume={42},
+  number={4},
+  pages={1--20},
+  doi={10.1145/3592458},
+  year={2023}
+}
+```
 ```
 @article{10.1145/3478513.3480570,
 author = {Valle-P\'{e}rez, Guillermo and Henter, Gustav Eje and Beskow, Jonas and Holzapfel, Andre and Oudeyer, Pierre-Yves and Alexanderson, Simon},
@@ -63,9 +83,4 @@ keywords = {normalising flows, machine learning, glow, generative models, dance,
 }
 ```
 
-**Attribution**
-Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
-When using the music in video presentations, please attribute the music with "music".
 
-**Disclaimers**
-Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronization issues. If you find any errors, please contact simon@motorica.ai to help in improving the database.
