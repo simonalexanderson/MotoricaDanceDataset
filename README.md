@@ -6,7 +6,7 @@
 Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
 
 - Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping. Finger motion captured in detail (10 markers on each hand)
-- Session 2: Causal dancing by Esther Ericsson and friends, performed to various pop songs. Music was played from Spotify. No finger motion.
+- Session 2: Casual dancing by Esther Ericsson and friends, performed to various pop songs. Music was played from Spotify. No finger motion.
 - Session 3: Vintage jazz dancing by Lizette Röhnlund and Nils Nygårdh, under supervision of Fatima Teffahi. Music by Stockholm Swing Allstars. Styles: Jazz, Charleston, Tapping. Fingers captures with Manus gloves (Unfortulately not very good due to sensor drift at fast motion).
 - Session 4: Street dancing by Mario Perez Amigo and Klara Eriksson + Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston. Locking and Jazz music were played from youtube. Simplyfied finger motion (markers on thumb, index and pinky according to Opitrack layout).
 
@@ -39,14 +39,14 @@ The Motorica Dance Dataset is free to use for research purposes by academic inst
 
 **No redistribution**
 
-Unauthorized redistribution of any content of the database is prohibited. Music is allowed to be used in adademic video presentations with attribution to the rights owners.
+Unauthorized redistribution of any content of the database is prohibited. Music is allowed to be used in academic video presentations with attribution to the rights owners.
 
 **Attribution**
 Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
 When using the music in video presentations, please attribute the music with "music ".
 
 **Disclaimers**
-Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronization issues. If you find any errors, please contact simon@motorica.ai to help in improving the database.
+Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronization issues. If you find any errors, please contact us to help in improving the database.
 
 **Citations**
 
