@@ -3,7 +3,7 @@
 [![Video renders of the dance styles](media/anim_gif.gif)](https://youtu.be/Qfd2EpzWgok)
 *Rendered videos of dance styles. Character by Esther Ericsson for our art installation [Dance of the sleeping beauties](https://www.sjusovarnasdans.com/)*
 
-Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
+Welcome to the Motorica Dance Dataset. This dataset consists of 6 hours of dance and music in 8 different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
 
 - Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping. Finger motion captured in detail (10 markers on each hand)
 - Session 2: Casual dancing by Esther Ericsson and friends, performed to various pop songs. Music was played from Spotify. No finger motion.
@@ -15,16 +15,17 @@ Sessions 3-4 are novel recordings for the paper "[Listen, denoise, action! Audio
 
 We named the clips following the convension used in AIST Dance Database, i.e. 'prefix_genre_situation_camera_dancer_music_choreography'. In our case only the tags 'genre', 'dancer' and 'music' are used, while the tags 'situation' is allways set to sFM (Advanced dance), 'camera' to cAll, and 'choreography' to a increasing serial number.
 
-| Style      | Code | Nb dancers | Nb minutes| Comments |
-|------------|------|------------|-----------|----------|
-| Hiphop     | gLH  | 2          | Row 1     | |
-| Krumping   | gKR  | 1          | Row 2     | |
-| Popping    | gPO  | 2          | Row 3     | |
-| Locking    | gLO  | 2          | Row 4     | |
-| Jazz       | gJZ  | 2          | Row 5     | |
-| Charleston | gCH  | 2          | Row 6     | |
-| Tapping    | gTP  | 2          | Row 7     | |
-| Casual     | gCA  | ?          | Row 8     | |
+| Style      | Code | Nb dancers | Nb minutes|
+|------------|------|------------|-----------|
+| Hiphop     | gLH  | 2          | 84     |
+| Krumping   | gKR  | 1          | 18     |
+| Popping    | gPO  | 2          | 42     |
+| Locking    | gLO  | 2          | 18     |
+| Jazz       | gJZ  | 2          | 52     |
+| Charleston | gCH  | 2          | 50     |
+| Tapping    | gTP  | 2          | 11     |
+| Casual     | gCA  | ?          | 85     |
+
 
 # Downloading
 The folowing download link contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted features as pandas Dataframes in pkl format.
