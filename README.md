@@ -1,6 +1,6 @@
 # MotoricaDanceDataset
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://youtu.be/Qfd2EpzWgok)" frameborder="0" allowfullscreen></iframe>
+[![Video renders of the dance styles](media/anim_gif.gif)](https://youtu.be/Qfd2EpzWgok)
 
 Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
 
@@ -9,8 +9,8 @@ Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of da
 - Session 3: Jazz dancing by Lizette Röhnlund and Nils Nygårdh, under supervision of Fatima Teffahi. Music by Stockholm Swing Allstars. Styles: Jazz, Charleston, Tapping. Fingers captures with Manus gloves. Unfortulately this gave a lot of sensor drift.
 - Session 4: Street dancing by Mario Perez Amigo and Klara Eriksson + Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston. Locking and Jazz music were played from youtube. Simplyfied fingers (markers on thumb, index and pinky).
 
-Sessions 1-2 constitutes the PSMD dataset used in the paper "Probabilistic autoregressive dance generation with multimodal attention https://dl.acm.org/doi/10.1145/3478513.3480570" published at SIGGRAPH Asia 2021. 
-Sessions 3-4 are novel recordings for the paper "", in which all the data (Sessions 1-4) were usedfor training.
+Sessions 1-2 constitutes the PSMD dataset used in the paper "[Probabilistic autoregressive dance generation with multimodal attention](https://dl.acm.org/doi/10.1145/3478513.3480570)" published at SIGGRAPH Asia 2021. 
+Sessions 3-4 are novel recordings for the paper "[Listen, denoise, action! Audio-driven motion synthesis with diffusion models](https://arxiv.org/abs/2211.09707)" published at SIGGRAPH 2023. For this paper, we used all the data (Sessions 1-4) for training.
 
 To comply with other studies, we named the clips following the convension used in AIST Dance Database, i.e. 'prefix_genre_situation_camera_dancer_music_choreography'. In our case only the tags 'genre', 'dancer' and 'music' are used, while the tags 'situation' is allways set to sFM (Advanced dance), 'camera' to cAll, and 'choreography' to a increasing serial number.
 
