@@ -4,13 +4,13 @@
 
 Welcome to the Motorica Dance Dataset. This dataset consists of XX minutes of dance and music in eight different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
 
-- Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping
-- Session 2: Causal dancing by Esther Ericsson and friends, performed to various pop songs. Styles: Casual (Note: music was played from Spotify)
-- Session 3: Jazz dancing by Lizette Röhnlund and Nils Nygårdh, under supervision of Fatima Teffahi. Music by Stockholm Swing Allstars. Styles: Jazz, Charleston, Tapping
-- Session 4: Street dancing by Mario Perez Amigo and Klara Eriksson + Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston (Note: Locking and Jazz music were played from youtube)
+- Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping. Finger motion captured in detail (10 markers on each hand)
+- Session 2: Causal dancing by Esther Ericsson and friends, performed to various pop songs. Styles: Casual. Music was played from Spotify. No finger motion.
+- Session 3: Jazz dancing by Lizette Röhnlund and Nils Nygårdh, under supervision of Fatima Teffahi. Music by Stockholm Swing Allstars. Styles: Jazz, Charleston, Tapping. Fingers captures with Manus gloves. Unfortulately this gave a lot of sensor drift.
+- Session 4: Street dancing by Mario Perez Amigo and Klara Eriksson + Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston. Locking and Jazz music were played from youtube. Simplyfied fingers (markers on thumb, index and pinky).
 
 Sessions 1-2 constitutes the PSMD dataset used in the paper "Probabilistic autoregressive dance generation with multimodal attention https://dl.acm.org/doi/10.1145/3478513.3480570" published at SIGGRAPH Asia 2021. 
-Sessions 3-4 are novel recordings for the paper "", which used all the data (Sessions 1-4) for training.
+Sessions 3-4 are novel recordings for the paper "", in which all the data (Sessions 1-4) were usedfor training.
 
 To comply with other studies, we named the clips following the convension used in AIST Dance Database, i.e. 'prefix_genre_situation_camera_dancer_music_choreography'. In our case only the tags 'genre', 'dancer' and 'music' are used, while the tags 'situation' is allways set to sFM (Advanced dance), 'camera' to cAll, and 'choreography' to a increasing serial number.
 
