@@ -28,7 +28,7 @@ We named the clips following the convention used in the [AIST Dance Database](ht
 
 
 # Obtaining the data
-This [data download link](https://kth-my.sharepoint.com/:f:/g/personal/simonal_ug_kth_se/Er4WUEHuAtFHkogXgmaynp0BDMRwHrC9aKmT3BLPxK-T3Q?e=5WMeQ1) contains all BHV files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from YouTube using the provided scripts. For the pop songs from Session 2, we provide extracted features as Pandas DataFrames in pkl format. Processed features for the "Listen, Denoise, Action!" paper are also provided and compatible with our [code release](https://github.com/simonalexanderson/ListenDenoiseAction/).
+This [data download link](https://kth-my.sharepoint.com/:f:/g/personal/simonal_ug_kth_se/Er4WUEHuAtFHkogXgmaynp0BDMRwHrC9aKmT3BLPxK-T3Q?e=5WMeQ1) contains all BVH files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from YouTube using the provided scripts. For the pop songs from Session 2, we provide extracted features as Pandas DataFrames in pkl format. Processed features for the "Listen, Denoise, Action!" paper are also provided and compatible with our [code release](https://github.com/simonalexanderson/ListenDenoiseAction/).
 
 # TERMS OF USE
 Please read carefully the following terms and conditions and any accompanying documentation before you download and/or use the Motorica Dance Dataset. By downloading and/or using the dataset, you acknowledge that you have read these terms and conditions, understand them, and agree to be bound by them. **You also acknowledge that all MUSIC AUDIO has its own Copyright Holders and is not subjected to this license**. After downloading the data, you shall at all times be responsible for ensuring that the data is stored securely.
@@ -41,7 +41,7 @@ Unauthorised redistribution of any content from the database is prohibited witho
 
 #### Attribution
 Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
-When using the music in video presentations, please attribute the music with "music by M.P.A Mario Perez Amigo" for the streetdance and "music by Stockholm Swing All Stars" for the jazz music from Session 2.
+When using the music in video presentations, please attribute the music with "music by M.P.A Mario Perez Amigo" for the streetdance and "music by Stockholm Swing All Stars" for the jazz music from Session 2 (i.e. the audio files with tag "gJZ, gCH or gTP" in the download link).
 
 #### Disclaimers
 Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronisation issues. If you find any errors, please contact us to help in improving the database.
