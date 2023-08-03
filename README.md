@@ -1,9 +1,9 @@
-# MotoricaDanceDataset
+# Motorica Dance Dataset
 
 [![Video renders of the dance styles](media/anim_gif.gif)](https://youtu.be/Qfd2EpzWgok)
 *Rendered videos of dance styles. Character by Esther Ericsson for our art installation [Dance of the sleeping beauties](https://www.sjusovarnasdans.com/)*
 
-Welcome to the Motorica Dance Dataset. This dataset consists of 6 hours of dance and music in 8 different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022.
+Welcome to the Motorica Dance Dataset. This dataset consists of 6 hours of motion captue and audio for dancing in 8 different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions 2019-2022. We used an optical markerbased system with 17 Prime41 cameras from Optitrack, opterating at 120fps. All motion is in bvh format and retargeted to a single skeleton. 
 
 - Session 1: Street dancing by dancer/MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping. Finger motion captured in detail (10 markers on each hand)
 - Session 2: Casual dancing by Esther Ericsson and friends, performed to various pop songs. Music was played from Spotify. No finger motion.
@@ -28,7 +28,7 @@ We named the clips following the convension used in AIST Dance Database, i.e. 'p
 
 
 # Downloading
-The folowing download link contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted features as pandas Dataframes in pkl format.
+The following download link contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted features as pandas Dataframes in pkl format.
 
 # TERMS OF USE
 
