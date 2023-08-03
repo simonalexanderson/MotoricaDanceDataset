@@ -28,7 +28,7 @@ We named the clips following the convension used in AIST Dance Database, i.e. 'p
 
 
 # Downloading
-The folowing download link contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted features as pandas Dataframes in pkl format.
+The following download link contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted features as pandas Dataframes in pkl format.
 
 # TERMS OF USE
 
