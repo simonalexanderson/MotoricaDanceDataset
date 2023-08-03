@@ -1,0 +1,25 @@
+The motion in this database is (c) copyright Motorica AB, with all rights reserved.
+
+TERMS OF USE
+Please read carefully the following terms and conditions and any accompanying documentation before you download and/or use the Motorica Dance Dataset. By downloading and/or using the dataset, you acknowledge that you have read these terms and conditions, understand them, and agree to be bound by them. You also acknowledge that all MUSIC AUDIO has its own Copyright Holders and is not subjected to this license. After downloading the data, you shall at all times be responsible for ensuring that the data is stored securely.
+
+Non-commercial use
+The Motorica Dance Dataset is free to use for research purposes by academic institutes, companies, and individuals. Use for commercial purposes is not permitted without prior written consent. This includes, without limitation, incorporation in a commercial product, use in a commercial service, or training machine-learning algorithms for commercial purposes. If you are interested in using Motorica Dance Dataset for commercial purposes or non-research purposes, please contact simonal@kth.se.
+
+No redistribution
+Unauthorised redistribution of any content from the database is prohibited without written approval from its respective copyright holder(s).
+
+Attribution
+Please clearly indicate the name of the dataset, “Motorica Dance Dataset”, when using the data, and provide a link to this repository. In academic contexts also cite the publications listed below.
+
+The motion data is associated with music. When using the music in video presentations, please attribute the music with "music by M.P.A Mario Perez Amigo" for the street dance music and "music by Stockholm Swing All Stars" for the jazz music from Session 3 (i.e., the audio files tagged 'gJZ', 'gCH', or 'gTP').
+
+Disclaimers
+Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronisation issues. If you find any errors, please contact us to help in improving the database.
+
+Citations
+When using or mentioning this database in an academic paper or other academic context, please cite the following publications as reference:
+
+Simon Alexanderson, Rajmund Nagy, Jonas Beskow, and Gustav Eje Henter. 2023. Listen, Denoise, Action! Audio-Driven Motion Synthesis with Diffusion Models. ACM Trans. Graph. 42, 4, Article 44 (August 2023), 20 pages. https: //doi.org/10.1145/3592458
+
+Guillermo Valle-Pérez, Gustav Eje Henter, Jonas Beskow, Andre Holzapfel, Pierre-Yves Oudeyer, and Simon Alexanderson. 2021. Transflower: probabilistic autoregressive dance generation with multimodal attention. ACM Trans. Graph. 40, 6, Article 195 (December 2021), 14 pages. https://doi.org/10.1145/ 3478513.3480570
