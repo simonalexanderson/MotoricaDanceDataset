@@ -1,4 +1,4 @@
-# MotoricaDanceDataset
+# Motorica Dance Dataset
 
 [![Video renders of the dance styles](media/anim_gif.gif)](https://youtu.be/Qfd2EpzWgok)
 *Rendered videos of dance styles. Character by Esther Ericsson for our art installation [Dance of the sleeping beauties](https://www.sjusovarnasdans.com/)*
