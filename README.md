@@ -40,14 +40,15 @@ The Motorica Dance Dataset is free to use for research purposes by academic inst
 Unauthorised redistribution of any content from the database is prohibited without written approval from its respective copyright holder(s).
 
 #### Attribution
-Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
+Please clearly indicate the name of the dataset, “Motorica Dance Dataset”, when using the data, and provide a link to this repository. In academic contexts also cite the publications listed below.
+
 When using the music in video presentations, please attribute the music with “music by M.P.A Mario Perez Amigo” for the street dance music and “music by Stockholm Swing All Stars” for the jazz music from Session 3 (i.e., the audio files tagged 'gJZ', 'gCH', or 'gTP' in the download link).
 
 #### Disclaimers
 Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronisation issues. If you find any errors, please contact us to help improve the database.
 
 ##### Citations
-When using or mentioning this database in an academic paper or pre-print, please cite the following publications as reference:
+When using or mentioning this database in an academic paper or other academic context, please cite the following publications as reference:
 ```
 @article{alexanderson2023listen,
   title={Listen, Denoise, Action! Audio-Driven Motion Synthesis with Diffusion Models},
