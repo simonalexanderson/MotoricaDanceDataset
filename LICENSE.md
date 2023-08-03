@@ -11,3 +11,5 @@ Unauthorised redistribution of any content from the database is prohibited witho
 Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
 When using the music in video presentations, please attribute the music with "music by M.P.A Mario Perez Amigo" for the streetdance and "music by Stockholm Swing All Stars" for the jazz music from Session 2.
 
+#### Disclaimers
+Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronisation issues. If you find any errors, please contact us to help in improving the database.
