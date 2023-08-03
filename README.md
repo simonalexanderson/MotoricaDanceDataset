@@ -27,8 +27,7 @@ We named the clips following the convension used in AIST Dance Database, i.e. 'p
 | Casual     | gCA  | ?          | 85     |
 
 # Downloading
-This [download link] (https://kth-my.sharepoint.com/:f:/g/personal/simonal_ug_kth_se/Er4WUEHuAtFHkogXgmaynp0BDMRwHrC9aKmT3BLPxK-T3Q?e=5WMeQ1) contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted features as pandas Dataframes in pkl format. Processed features for the "Listen, Denoise, action!" paper is also provided and compatible with our [released code](https://github.com/simonalexanderson/ListenDenoiseAction/)
-
+This [download link](https://kth-my.sharepoint.com/:f:/g/personal/simonal_ug_kth_se/Er4WUEHuAtFHkogXgmaynp0BDMRwHrC9aKmT3BLPxK-T3Q?e=5WMeQ1) contains all bvh files as well as the music with cleared rights (see terms below). Additional music from Session 4 can be downloaded from youtube using the provided scripts. For the pop songs from Session 2, we provide extracted features as pandas Dataframes in pkl format. Processed features for the "Listen, Denoise, action!" paper is also provided and compatible with our [released code](https://github.com/simonalexanderson/ListenDenoiseAction/)
 
 # TERMS OF USE
 
