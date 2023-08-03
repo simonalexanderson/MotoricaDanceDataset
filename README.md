@@ -5,15 +5,15 @@
 
 Welcome to the Motorica Dance Dataset. This dataset consists of 6 hours of motion capture and audio for dancing in 8 different styles. The dataset was recorded by Simon Alexanderson and Esther Ericsson during four sessions in 2019–2022. We used an optical, marker-based system with 17 Prime41 cameras from OptiTrack, operating at 120 fps. All motion is in BVH format and retargeted to a single skeleton. 
 
-- Session 1: Street dancing by dancer and MC Mario Perez Amigo, dancing to his own music. Styles: Krumping, Hiphop, Popping. Finger motion was captured in detail (10 markers on each hand).
+- Session 1: Street dancing by Dancer/musicproducer/Emcee [Mario Perez Amigo](https://www.instagram.com/marioperezamigo/), dancing to his [own music](https://mariopamigo.bandcamp.com/music). Styles: Krumping, Hiphop, Popping. Finger motion was captured in detail (10 markers on each hand).
 - Session 2: Casual dancing by Esther Ericsson and friends, performed to various pop songs. Music was played from Spotify. No finger motion.
-- Session 3: Vintage jazz dancing by Lizette Röhnlund and Nils Nygårdh, under supervision by Fatima Teffahi. Music by Stockholm Swing Allstars. Styles: Jazz, Charleston, Tapping. Fingers captured with Manus gloves, which unfortunately suffered in quality due to sensor drift at fast motion.
+- Session 3: Vintage jazz dancing by Lizette Röhnlund and Nils Nygårdh, under supervision by Fatima Teffahi. Music by [Stockholm Swing Allstars](https://www.stockholmswingallstars.com/). Styles: Jazz, Charleston, Tapping. Fingers captured with Manus gloves, which unfortunately suffered in quality due to sensor drift at fast motion.
 - Session 4: Street dancing by Mario Perez Amigo and Klara Eriksson plus Jazz dancing by Lisette Röhnlund. Styles: Krumping, Hiphop, Popping, Locking, Jazz, Charleston. Locking and Jazz music were played from YouTube. Simplified finger motion (markers on thumb, index, and pinky according to the OptiTrack layout).
 
 Sessions 1–2 constitute the PSMD dataset used in the paper "[Probabilistic autoregressive dance generation with multimodal attention](https://dl.acm.org/doi/10.1145/3478513.3480570)" published at SIGGRAPH Asia 2021. 
 Sessions 3–4 are novel recordings for the paper "[Listen, denoise, action! Audio-driven motion synthesis with diffusion models](https://arxiv.org/abs/2211.09707)" published at SIGGRAPH 2023. For this paper, we used all the data (Sessions 1–4) for training.
 
-We named the clips following the convention used in the AIST Dance Database, i.e., 'prefix_genre_situation_camera_dancer_music_choreography'. In our case only the tags 'genre', 'dancer', and 'music' are used, while the tags 'situation' is always set to sFM (Advanced dance), 'camera' to cAll, and 'choreography' to an increasing serial number.
+We named the clips following the convention used in the [AIST Dance Database](https://aistdancedb.ongaaccel.jp/), i.e., 'prefix_genre_situation_camera_dancer_music_choreography'. In our case only the tags 'genre', 'dancer', and 'music' are used, while the tags 'situation' is always set to sFM (Advanced dance), 'camera' to cAll, and 'choreography' to an increasing serial number.
 
 | Style      | Code | No. dancers | No. minutes|
 |------------|------|-------------|------------|
@@ -37,11 +37,11 @@ Please read carefully the following terms and conditions and any accompanying do
 The Motorica Dance Dataset is free to use for research purposes by academic institutes, companies, and individuals. Use for commercial purposes is not permitted without prior written consent. This includes, without limitation, incorporation in a commercial product, use in a commercial service, or training machine-learning algorithms for commercial purposes. If you are interested in using Motorica Dance Dataset for commercial purposes or non-research purposes, please contact simonal@kth.se.
 
 #### No redistribution
-Unauthorised redistribution of any content of the database is prohibited. Music is allowed to be used in academic video presentations with attribution to the rights holders.
+Unauthorised redistribution of any content from the database is prohibited without written approval from its copyright holder(s)."
 
 #### Attribution
 Please clearly indicate the name of the dataset, "Motorica Dance Dataset", when using the data. 
-When using the music in video presentations, please attribute the music with "music".
+When using the music in video presentations, please attribute the music with "music by M.P.A Mario Perez Amigo" for the streetdance and "music by Stockholm Swing All Stars" for the jazz music from Session 2.
 
 #### Disclaimers
 Any use of the Motorica Dance Dataset or any supplementary code is at your own risk. We do not guarantee the quality of the database, which may contain errors such as noisy motion data or audio/motion synchronisation issues. If you find any errors, please contact us to help in improving the database.
